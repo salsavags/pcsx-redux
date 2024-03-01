@@ -67,7 +67,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance
         }
     }
 
-    TCHAR fname[] = L"pcsx-redux.main";
+    TCHAR fname[] = L"pcsx-redux.exe";
     for (unsigned i = 0; i < sizeof(fname) / sizeof(fname[0]); i++) {
         *lastSlash++ = fname[i];
     }
